@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-. ../common.sh
+. ../download-data.sh
 
 git clone https://github.com/cloudflare/zlib
 cd zlib

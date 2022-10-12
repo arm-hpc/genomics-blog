@@ -27,7 +27,7 @@ export LD_LIBRARY_PATH=zlib:$LD_LIBRARY_PATH
 
 echo Indexing the data a one time op - if we already have it, this is skipped
 
-test -e $HOME/workload-datasets/bwa/human.mmi || ./minimap2/minimap2 -x sr -d $HOME/workload-datasets/bwa/human.mmi $HOME/workload-datasets/bwa $HOME/workload-datasets/bwa/human_g1k_v37.fasta
+test -e $HOME/workload-datasets/bwa/human.mmi || ./minimap2/minimap2 -x sr -d $HOME/workload-datasets/bwa/human.mmi $HOME/workload-datasets/bwa/human_g1k_v37.fasta
 
 
 
